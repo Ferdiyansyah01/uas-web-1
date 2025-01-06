@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+*{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px;
+	background-color:#3f8ccf;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 5px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header{
+
+}
+header h1{
+	
+	float: left;
+	padding: 10px 0;
+	color: #0570ce ;
+}
+header ul{
+
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:#0570ce ;
+	color: #fff ;
+
+}
+.active{
+	background-color:#0570ce ;
+	color: #fff ;
+}
+.banner{
+	height: 60vh;
+	
+	background-image: url('./img/bg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(80, 211, 247, .3 );
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 15px 10px;
+	border: solid;
+}
+seaction{
+	padding: 50px 0;
+
+}
+.hero h3 {
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 0;
+	background-color: #A5BFCC;
+	color: #FFF;
+	margin-bottom: 20px;
+	margin-top: 40px ;
+}
+.dashboard{
+	color: #666;
+	word-spacing:2px ;
+	line-height: 20px;
+	font-family: serif;
+}
+.foto{
+	background-color: #f9f9f9;
+}
+.label{
+	background-color: #3f8ccf;
+	color: #fff;
+}
+footer{
+	padding:30px 0 ;
+	background-color:#333 ;
+	color: #fff;
+	text-align: center;
+}
